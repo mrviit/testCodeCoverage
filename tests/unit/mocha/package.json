@@ -1,0 +1,20 @@
+{
+    "name": "MochaUnitTest",
+    "scripts": {
+        "test": "mocha -r ts-node/register ./*.test.ts",
+        "testCoverage": "nyc -r lcov -e .ts -x \"*.test.ts\" mocha -r ts-node/register ./*.test.ts && nyc report"
+    },
+    "devDependencies": {
+        "@types/chai": "^4.1.7",
+        "@types/node": "^10.12.18",
+        "@types/mocha": "^5.2.5",
+        "chai": "^4.2.0",
+        "mocha": "^5.2.0",
+        "node": "^11.7.0",
+        "nyc": "^13.1.0",
+        "require": "^2.4.20",
+        "source-map-support": "^0.5.10",
+        "ts-node": "^8.0.1",
+        "typescript": "^3.2.4"
+    }
+}
