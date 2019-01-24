@@ -1,6 +1,7 @@
 import { expect } from "chai";
 // tslint:disable-next-line:no-var-requires
-const Calculator = require("../../src/helper/Calculator");
+const Calculator = require("../../../Calculator");
+// const Calculator = require("./Calculator");
 
 const cal = new Calculator();
 
