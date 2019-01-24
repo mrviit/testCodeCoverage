@@ -1,5 +1,5 @@
 # testCodeCoverage
 
 cd tests/unit/mocha
-npm test
+npm test    
 or npm run testCoverage
