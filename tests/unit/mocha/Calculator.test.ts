@@ -1,9 +1,9 @@
 import { expect } from "chai";
 
 // tslint:disable-next-line:no-var-requires
-// const Calculator = require("../../../Calculator");
+// const Calculator = require("../../../Calculator"); // we cannot report a code covarage report because the file is outside root dir
 // tslint:disable-next-line:no-var-requires
-const Calculator = require("./Calculator");
+const Calculator = require("./Calculator"); //we can report a code coverage report
 
 const cal = new Calculator();
 
